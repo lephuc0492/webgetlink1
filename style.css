@@ -1,0 +1,376 @@
+*
+{
+	box-sizing: border-box;
+
+}
+html, body
+{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+@font-face {
+    font-family: tahoma2;
+    src: url("font/Tahoma/Tahoma.ttf");
+    src: url("font/Tahoma/Tahoma.woff");
+    src: url("font/Tahoma/Tahoma.woff2");
+}
+@font-face {
+    font-family: fire;
+    src: url("font/fire.ttf");
+}
+.nav-menu
+{
+	/*
+float: right;
+z-index: 2;
+*/
+}
+.btn, .form-control
+{
+border-radius: 10px !important;
+}
+nav a, button, .btn
+{
+	font-size: 16px !important;
+	font-family: tahoma2 !important;
+	font-weight: bold !important;
+}
+div h1, div p, h2, p, .lead, #formlogin
+{
+	font-family: tahoma2 !important;	
+}
+body > div.container > h1, body > footer > h2
+{
+text-align: center;
+text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+font-size: 35px !important;
+font-weight: bold;
+margin-bottom: 50px;
+}
+.nav-menu
+{
+	height: 40px;
+}
+.carousel-control-next, .carousel-control-prev
+{
+	top: 40px;
+}
+li a:hover, .page-link:hover, 
+{
+background: #28a745;
+color: #fff !important;
+border-radius: 10px;
+}
+.carousel-caption
+{
+	top: 20% !important;
+}
+#carouselExampleIndicators > div > div.carousel-item.active > div > h2
+{
+	font-family: fire !important;
+	font-size: 96px !important;
+	color: #499a53 !important;
+}
+.row
+{
+margin-bottom: 70px;
+}
+.col img
+{
+	margin-left: 25%;
+}
+.col-blog img
+{
+	margin-left: 0 !important;
+}
+.xemthem
+{
+	margin-bottom: 0;
+	font-family: tahoma2 !important;
+	font-size: 16px;
+	color: #0B87FA;
+	font-weight: bold;
+	position: absolute;
+    bottom: 0;
+    line-height: 1;
+}
+.tieudenho
+{
+	font-size: 28px !important;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+footer h2
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 50px;
+	padding-top: 40px;
+}
+.padding	
+{
+	text-align: center !important;
+}
+.padding a
+{
+	font-size: 50px;
+	margin: 50px;
+}
+footer p
+{
+	margin-top: 20px;
+	font-weight: bold;
+
+}
+footer p a
+{
+		color: #212529 !important;
+}
+footer .row
+{
+	margin-bottom: 0;
+}
+.Coppyright
+{
+	text-align: center;
+font-weight: bold;
+}
+footer
+{
+	background: #D7D4D4;
+}
+.nav-link
+{
+	color: #1F1B1B !important;
+}
+.active a
+{
+	background: #28a745 !important;
+color: #fff !important;
+border-radius: 10px;	
+}
+#carouselExampleIndicators > div p
+{
+	font-weight: bold;
+	font-size: 20px !important; 
+}
+.getlinkbox
+{
+
+	text-align: center;
+}
+.form-inline
+{
+	display: initial !important;
+}
+.supportlink
+{
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.binhluan
+{
+	text-align: center;
+}
+.h2-blog
+{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.backgr-lh
+{
+	width: 100%;
+	height: 255px;
+	background: #495FD3;
+	text-align: center;
+}
+.backgr-lh h1
+{
+	line-height: 255px !important;
+font-weight: bold;
+color: white;
+font-size: 36px !important;
+}
+.thongtinlienhe
+{
+	width: 65%;
+	height: 350px;
+background: #BFC3CA;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 23px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -50px;
+
+}
+.lienhe-col12
+{
+	left: 20%;
+	top: 20%;
+}
+.container-lienhe
+{
+	height: 350px;
+	position: relative;
+}
+.thongtinlienhe p
+{
+	font-weight: bold;
+}
+/*Danh so trang blog*//*Danh so trang blog*//*Danh so trang blog*/
+.page-link
+{
+	color: #007bff !important;
+}
+.download a, 
+{
+color: #28a745;
+text-decoration: none;
+	}
+/*Form login*/
+#formlogin
+{
+	top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.dangnhap
+{
+	margin-top: 5% !important;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/*Click get link*/ /*Click get link*//*Click get link*//*Click get link*/
+.clickgetlink
+{
+	display: none;
+}
+/*Responsive*//*Responsive*//*Responsive*//*Responsive*//*Responsive*//*Responsive*//*Responsive*/
+@media (min-width: 1200px)
+{
+.nav-link
+{
+	margin-right: 20px;
+}	
+.getlinkinput
+{
+	width: 762px !important;
+}
+/*Form login*/
+.tendangnhap, .matkhau, .tendangnhap-dk, .hovaten, .matkhau-dk, .email
+{
+	width: 300px !important;
+}
+.tendangnhap-dk, .hovaten, .matkhau-dk, .email
+{
+	margin-top: 10px;
+}
+}
+@media (max-width: 1200px)
+{
+.nav-link
+{
+	margin-right: 20px;
+}
+.getlinkinput
+{
+	width: 762px !important;
+}
+#formlogin > button
+{
+	    width: 150px;
+}
+}
+@media (max-width: 992px)
+{
+.col img
+{
+	margin-left: 5%;
+}
+}
+@media (max-width: 768px)
+{
+.col
+{
+	    padding-right: 20px;
+}
+.col img
+{
+	margin-left: 5%;
+}
+.padding a
+{
+	margin: 30px;
+}
+#formlogin > button
+{
+	    width: 150px;
+}
+}	
+@media (max-width: 576px)
+{
+.display-4
+{
+font-size: 35px !important;
+}
+.col
+{
+	    padding-right: 20px;
+}
+.col img
+{
+	margin-left: 5%;
+}
+.padding a
+{
+	margin: 30px;
+}
+footer .col-5
+{
+	    margin-left: 100px;
+}
+footer .col-4
+{
+	max-width: 100%;
+}
+footer .col-4 p, footer .col5-p
+{
+font-size: 14px !important;
+}
+footer p img
+{
+	padding-right: 10px;
+}
+footer p
+{
+	    display: inline-flex;
+}
+.getlinkinput {
+    width: 300px !important;
+    }
+    iframe
+    {
+    	width: 300px;
+    }
+.lienhe-col12
+{
+	position: initial;
+	    display: inline;
+}
+.lienhe-col12 p
+{
+	    margin-top: 30px;
+}
+#formlogin > button
+{
+	    width: 150px;
+}
+}

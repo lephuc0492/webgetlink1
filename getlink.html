@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chào mừng bạn đến website get link</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./image/favicon.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Menu use boostrap-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="./image/logo.png" class="img-responsive" height="40">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="./index.html">Trang chủ<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./getlink.html">Get link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./blog.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./lienhe.html">Liên hệ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./dangnhap.html">Đăng nhập</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./dangky.html">Đăng ký</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- Backgroud header with slide-->
+<div class="backgr">
+  <img src="./image/slide2.png" class="img-fluid" alt="Get link 247">
+</div>
+<!-- Body Thong Tin-->
+<hr class="my-4">
+<div class="container binhluan">
+  <div class="col-12 getlinkbox">
+        <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 getlinkinput" type="search" placeholder="Put link here..." aria-label="Search" required=""></form>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="getlink()">GET LINK</button>
+          
+          <p class="supportlink">
+            * Hỗ trợ: Fshare, Youtube, mp3.zing.vn
+          </p>
+          <div class="clickgetlink">
+                <button class="btn btn-outline-success my-2 my-sm-0 download"><a href="#">DOWNLOAD HERE</a></button><br><br>
+                <iframe scrolling="no" width=640 height=180 src=https://zingmp3.vn/embed/song/ZWAE7EW8?start=false frameborder="0" allowfullscreen="true" /></iframe></div>
+      </div>
+<br><h1>
+  BÌNH LUẬN
+</h1>
+<div id="fbWrapper">
+      <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://luanxt.tk/get-link-mp3-320-lossless-vip-zing/" data-order-by="reverse_time" data-width="100%" data-numposts="5" style="width: 100%;" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=2001734540086293&amp;container_width=540&amp;height=100&amp;href=https%3A%2F%2Fluanxt.tk%2Fget-link-mp3-320-lossless-vip-zing%2F&amp;locale=vi_VN&amp;numposts=5&amp;order_by=reverse_time&amp;sdk=joey&amp;version=v2.11"><span style="vertical-align: bottom; width: 100%; height: 729px;"><iframe name="ffcc5d7186020c" width="1000px" height="100px" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.11/plugins/comments.php?app_id=2001734540086293&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2e4203442d95b%26domain%3Dluanxt.tk%26origin%3Dhttps%253A%252F%252Fluanxt.tk%252Ff15198b0f0ba664%26relation%3Dparent.parent&amp;container_width=540&amp;height=100&amp;href=https%3A%2F%2Fluanxt.tk%2Fget-link-mp3-320-lossless-vip-zing%2F&amp;locale=vi_VN&amp;numposts=5&amp;order_by=reverse_time&amp;sdk=joey&amp;version=v2.11" style="border: none; visibility: visible; width: 100%; height: 729px;" class=""></iframe></span></div>
+    </div>
+</div>
+<hr class="my-4">
+<!-- Footer-->
+<footer class="container-fluid">
+  <h2>
+    HỖ TRỢ
+  </h2>
+  <div class="col-lg-12 padding" >
+    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <img src="./image/logo.png" class="img-fluid">
+    </div>
+    <div class="col-1">
+      
+    </div>
+        <div class="col-4">
+    <p>
+      <img src="./image/mail.png" class="img-fluid">
+      lephuc0492@gmail.com
+    </p>  
+
+    <p>
+      <img src="./image/facebook.png" class="img-fluid">
+      phuclq0492
+    </p>  
+    <p>
+      <img src="./image/phone.png" class="img-fluid">
+      0121.232.212
+    </p>  
+    </div>
+        <div class="col-5">
+    <p>
+      <img src="./image/Vector.png" class="img-fluid">
+      <a href="#">Hướng dẫn sử dụng</a>
+    </p>  
+
+    <p>
+      <img src="./image/chidan.png" class="img-fluid">
+      <a href="./lienhe.html">Liên hệ</a>
+    </p>  
+    <p>
+      <img src="./image/donate.png" class="img-fluid">
+      <a href="#">Ý kiến/ Donate</a>
+    </p>
+    </div>
+  </div>
+  <div class="col-12 Coppyright">
+    <p>
+      <i class="fa fa-copyright" aria-hidden="true"></i>
+      Coppyright 2019
+    </p>
+  </div>
+</footer>
+<!-- Javascript here-->
+<script type="text/javascript" src="java.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
